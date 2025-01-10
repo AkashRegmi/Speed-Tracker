@@ -1,14 +1,12 @@
 
-import './App.css'
+import "./App.css";
+import SpeedTracker from "./SpeedTracker";
+
 
 function App() {
-
-
-  return (
-    <>
-     
-    </>
-  )
+  return <>
+  <SpeedTracker/> 
+  </>;
 }
 
-export default App
+export default App;
