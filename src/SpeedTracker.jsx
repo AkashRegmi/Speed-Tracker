@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import "./component/style.css";
 
 function SpeedTracker() {
   const targeSentence =
@@ -46,7 +47,7 @@ const handelResetButton=()=>{
 
   return (
     <div>
-      <h1>Speed Tracker </h1>
+      <h1 >Speed Tracker </h1>
       {typingSpeed && (
         <p>
           <strong>Typing Speed:</strong> {typingSpeed} characters per second
