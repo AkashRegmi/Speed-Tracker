@@ -34,9 +34,9 @@ function SpeedTracker() {
       const timeTaken = (endTime - startTime) / 1000; // Time in seconds
       setTypingSpeed((typedText.length / timeTaken).toFixed(2)); // Characters per second
     }
-  }, [endTime]); // Runs when `endTime` changes
+  }, [endTime]); // when the endTime changes this get run 
 
-//handeling the Reset Button
+//  Reset Button garna lai 
 const handelResetButton=()=>{
     setTypedText("");
     setStartTime(null);
